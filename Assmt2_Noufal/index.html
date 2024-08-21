@@ -29,8 +29,8 @@
           Welcome to Max Game Arena...Please fill out the form.
         </h3>
         <section class="form-elements">
-          <input type="text" id="name" placeholder="Enter Your Name" required /><br />
-          <input type="email" id="email" placeholder="Enter Your Email" /><br />
+          <input type="text" pattern="[A-Za-z]+" title="Name Should Only Contain Letters" id="name" placeholder="Enter Your Name" required />
+          <input type="email" id="email" placeholder="Enter Your Email" />
           <textarea id="comments" rows="1" cols="20" placeholder="Enter Your Feedback"></textarea>
         </section>
         <button id="submit-btn">Submit</button>
