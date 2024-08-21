@@ -109,7 +109,7 @@ nav h2{
     font-family:'Times New Roman', Times, serif
 }
 
-#submit-btn,#rectangle-button:hover{
+#submit-btn:hover,#rectangle-button:hover{
     background-color: salmon;
 }
 
